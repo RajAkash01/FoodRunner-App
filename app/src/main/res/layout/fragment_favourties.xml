@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment.MyProfilesFragment"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerFavourite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_below="@+id/toolbar"/>
+
+            <RelativeLayout
+        android:id="@+id/progress_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                android:layout_marginTop="55dp"
+        android:background="#ffffff"
+                android:visibility="invisible">
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/no_data"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="230dp"
+                    android:fontFamily="@font/baloo"
+                    android:text="No data "
+                    android:textSize="39sp"
+                   />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/progress_barforfav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

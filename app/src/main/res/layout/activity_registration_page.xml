@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegistrationPageActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifforreg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="300dp"
+        android:src="@drawable/register_yourself" />
+
+
+    <EditText
+        android:id="@+id/FirstNameForRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="355dp"
+        android:background="@drawable/lessroundedcorners"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:hint="First Name"
+        android:fontFamily="@font/baloo"
+        android:inputType="textPersonName"
+        android:paddingStart="2dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/EmailforRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="246dp"
+        android:background="@drawable/lessroundedcorners"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="2dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <EditText
+        android:id="@+id/LastNameforRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="301dp"
+        android:background="@drawable/lessroundedcorners"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Last Name"
+        android:inputType="textPostalAddress"
+        android:paddingStart="2dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/PasswordforRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/lessroundedcorners"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Password(Min.4 character)"
+        android:inputType="textPassword"
+        android:paddingStart="2dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPassword2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:layout_marginBottom="140dp"-->
+<!--        android:background="@drawable/roundedcorners"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_lock_24"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/baloo"-->
+<!--        android:hint="Confirm Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:paddingStart="2dp"-->
+<!--        android:paddingLeft="2dp"-->
+<!--        android:paddingTop="4dp"-->
+<!--        android:paddingBottom="4dp"-->
+<!--        tools:layout_editor_absoluteX="35dp"-->
+<!--        tools:layout_editor_absoluteY="369dp" />-->
+
+    <Button
+        android:id="@+id/buttontoregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/roundedcornerswithrealpurplecolor"
+        android:fontFamily="@font/baloo"
+        android:text="Register"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

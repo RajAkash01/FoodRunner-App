@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.DescriptionActivity"
+    android:id="@id/Content11">
+
+
+    <TextView
+          android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/baloo"
+        android:textSize="18sp"
+        android:text="Choose from the menu listed below:"
+        android:drawableRight="@drawable/ic_baseline_favorite_border_24"
+        android:drawableEnd="@drawable/ic_baseline_favorite_border_24"
+         />
+    <RelativeLayout
+        android:id="@+id/Content11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp">
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerDescription"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginBottom="52dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+        <Button
+            android:id="@+id/ProceedToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/roundedcornerswithrealpurplecolor"
+            android:fontFamily="@font/baloo"
+            android:text="Proceed to Cart"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="7dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+     android:layout_gravity="bottom|center"
+            />
+            <include layout="@layout/cart_bottom_sheets"/>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

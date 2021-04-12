@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/Content11"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:background="@drawable/roundedcorners">
+
+        <TextView
+            android:id="@+id/bookname"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="134dp"
+            android:layout_marginLeft="134dp"
+            android:layout_marginBottom="69dp"
+            android:fontFamily="@font/baloo"
+            android:text="List Item"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginLeft="136dp"
+            android:layout_marginBottom="21dp"
+            android:fontFamily="@font/baloo"
+            android:textColor="#64FF22"
+            android:text="Rs." />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="159dp"
+            android:layout_marginLeft="159dp"
+            android:layout_marginBottom="21dp"
+            android:fontFamily="@font/baloo"
+            android:textColor="#64FF22"
+            android:text="price " />
+
+        <ImageView
+            android:id="@+id/leftimage"
+            android:layout_width="86dp"
+            android:layout_height="101dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/roundedcorners"
+            app:srcCompat="@drawable/ic_baseline_android_24" />
+
+
+        <ImageView
+            android:id="@+id/favimgbtn"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
+
+        <TextView
+            android:id="@+id/ratings"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="325dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="29dp"
+            android:fontFamily="@font/baloo"
+            android:paddingTop="10sp"
+            android:text="4.5"
+            android:textColor="#2E82FF" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="29dp"
+            app:srcCompat="@drawable/ic_baseline_star_24" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

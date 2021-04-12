@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="dont_have_an_account">Dont have an account.Sign up now</string>
+    <string name="SharedPrefrences_file_name">Prefrence file</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_sort">action_sort</string>
+    <string name="facebook_app_id">964183357383936</string>
+    <string name="fb_login_protocol_scheme">fb964183357383936</string>
+    // 368a836b12d02a78fe63534bbc5fce52
+
+
+</resources>

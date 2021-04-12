@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.experimentActivity"
+    android:background="@drawable/gradient_color"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="195dp"
+    android:background="@color/white"
+    android:layout_marginTop="625dp"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp"
+    android:background="@drawable/roundedcorners"
+    android:layout_marginLeft="19dp"
+    android:layout_marginStart="19dp"
+    android:layout_marginBottom="19dp"
+    android:layout_marginRight="19dp"
+    android:layout_marginEnd="19dp">
+
+
+    <TextView
+        android:id="@+id/display_name12"
+        style="@style/baloo"
+        android:layout_width="198dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="103dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="#070607"
+        android:textSize="49sp" />
+
+    <TextView
+        android:id="@+id/display_email12"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_below="@id/display_name12"
+       android:layout_marginTop="55dp"
+        android:text="Email"
+        android:gravity="center"
+        android:layout_marginLeft="32dp"
+        android:textSize="30sp"
+        android:layout_marginStart="32dp" />
+
+    <TextView
+        android:id="@+id/display_id12"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:layout_below="@id/display_email12"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="25dp"
+        android:text="User ID"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/display_profile12"
+        android:layout_width="161dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginRight="201dp"
+        android:layout_marginBottom="392dp"
+        app:srcCompat="@drawable/ic_action_person" />
+
+    <Button
+        android:id="@+id/Logout1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Sign out"
+        android:textColor="#F10101"
+        android:background="@drawable/roundedcorners"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp" />
+</RelativeLayout>
+</RelativeLayout>

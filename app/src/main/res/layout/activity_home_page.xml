@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomePageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="163dp"
+            android:layout_height="147dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="67dp"
+            app:srcCompat="@drawable/jk" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="jk23@gmail.com" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:text="joker"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginRight="-3dp"
+            android:layout_marginBottom="204dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+
+            android:text="+9154564" />
+
+        <ImageView
+            android:id="@+id/scenary"
+            android:layout_width="163dp"
+            android:layout_height="147dp"
+            android:src="@drawable/scenary"
+             android:layout_below="@id/imageView2"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="271dp"
+            android:layout_marginEnd="186dp"
+            android:layout_marginRight="186dp"
+            android:layout_marginBottom="218dp"
+            android:text="scenary" />
+
+        <ImageView
+            android:id="@+id/jk2"
+            android:layout_width="163dp"
+            android:layout_height="147dp"
+            android:src="@drawable/jk"
+            android:layout_below="@+id/scenary"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/jk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scenary"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginBottom="103dp"
+            android:layout_toEndOf="@id/jk2"
+            android:layout_toRightOf="@id/jk2"
+            android:text="jk" />
+
+        <ImageView
+            android:id="@+id/scenary2"
+            android:layout_width="163dp"
+            android:layout_height="147dp"
+            android:src="@drawable/scenary"
+            android:layout_below="@id/jk2"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/jk4"
+            android:layout_width="163dp"
+            android:layout_height="147dp"
+            android:src="@drawable/jk"
+            android:layout_below="@+id/scenary2"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="151dp"
+            android:layout_marginBottom="273dp"
+            android:text="Scenary"
+            android:layout_below="@+id/jk3"
+            android:layout_toRightOf="@id/scenary2"
+            android:layout_marginTop="55dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="238dp"
+            android:layout_toRightOf="@id/jk4"
+            android:text="JK"
+            android:layout_below="@id/scenary2"
+            android:layout_marginStart="15dp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

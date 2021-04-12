@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>//toolbar color
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FF5722</color>
+    <color name="orangeee">#F44336</color>
+    <color name="violet">#311b92</color>
+    <color name="darkpurple">#9C27B0</color>
+    <color name="lightpurple">#BA68C8</color>
+    <color name="grey">#757575</color>
+    <color name="lightgrey">#9E9E9E</color>
+</resources>
